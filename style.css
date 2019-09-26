@@ -1,0 +1,62 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+#container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#holder{
+  position: absolute;
+  margin: auto;
+  width: 932px;
+  height: 480px;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#canvas{
+  display: block;
+  position: absolute;
+  outline: 1px solid black;
+  top: 0;
+  bottom: 0;
+  left: 75px;
+  right: 0;
+}
+
+#canvas:hover{
+  cursor: crosshair;
+}
+
+#tools{
+  position: absolute;
+  display: block;
+  
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    outline: 1px solid black;
+  width: 70px;
+  height: 480px;
+
+}
+
+button{
+  width: 30px;
+  height: 30px;
+}
+button:hover{
+  cursor: pointer;
+}
+.jscolor{
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
